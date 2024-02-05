@@ -1,0 +1,50 @@
+.blog-entry h2,.blog-entry p,.hobbies-and-interests h2,.hobbies-and-interests p{
+    color: #000;
+}
+.blog-entry,.hobbies-and-interests {
+    /* display: grid; */
+    text-align: center;
+}
+
+.entry-title {
+    margin: 0px 0 25px;
+    text-align: center;
+    font-size: 24px;
+    font-size: 2.25rem;
+    letter-spacing: 1px;
+  }
+
+
+
+
+  
+/*-------------------------------------
+        first blog
+--------------------------------------*/
+.blog,.hobby {padding: 50px 0 100px;}
+.blog-content {padding-top: 100px;}
+/* .row{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+} */
+
+/*.single-txt*/
+.single-txt h3 {
+    font-size:18px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+}
+.single-txt p {
+    font-size: 16px;
+    color: #999fb3;
+    padding: 35px 0 43px;
+    border-bottom: 1px solid #999fb3;
+}
+
+
+/*.single-img */
+.single-img img {
+    max-width: 500px;
+    height: auto;
+}
